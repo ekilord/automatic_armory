@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ekilord.automatic_armory.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "automatic_armory.refmap.json",
+  "mixins": [
+    "DixtasArmoryMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
